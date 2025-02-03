@@ -159,6 +159,7 @@ struct world {
 
 
 struct rule {
+    virtual ~rule() = default;
     std::vector<float> acceleration = {0.0f, 0.0f};
     float factor; 
 };
