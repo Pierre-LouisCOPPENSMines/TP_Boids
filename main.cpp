@@ -36,7 +36,6 @@ const float f_flee = 0.05;
 const float f_v = 0.05;
 const float max_speed = 2.0f;
 
-
 struct global_t {
     SDL_Window * window = NULL;
     SDL_Renderer * renderer = NULL;
